@@ -5,7 +5,7 @@ test(`Create a new Account`, async ({page}) => {
     await page.goto("https://login.salesforce.com/");
 
     //Enter username
-   await page.getByLabel("username").fill("v.b.udayakumar@accenture.com");
+   await page.getByLabel("username").fill("visalatchi@gmail.com.com");
 
     //Enter password
     await page.getByLabel("password").fill("Visa@931130");
